@@ -1,0 +1,38 @@
+Inteligência Artificial
+	-Área da Ciência da Computação que tem metodologia e técnicas/métodos para projetar e construir sistemas de comportamento inteligente 
+			-Base de conhecimento: (PROLOG; SMA;REDES NEURAIS)
+			-Estruturada
+			Banco de dados
+			-Não estruturado
+		-Fatos
+		-Regras
+		-Experiências
+	
+--Motores de Raciocínio() --> Usado em métodos de busca e sistemas multiagentes
+	-Dedução ou Indução
+	-Profundidade e largura(Força Bruta)
+	-Subida de encosta, guloso, A*, Algoritmos Genéticos(heurísticos(dica))
+
+--Aprendizado de Maquina() -->Reconhecimento de padrões por amostras(Redes Neurais Artificiais)	
+	-Repetição e volume de amostras
+	
+--Tipos de problemas adequados a IA:
+	-Diagnostico -> Reconhecimento de padrões(substituir o especialista)
+	-"Empacotamento" -> Descobrir o estado final e/ou os passos até o estado final.
+
+
+	**MOTORES DE RACIOCÍNIO**
+-Algoritmos que buscam solução de problema
+-Busca de força bruta(Mais processamento e mais consumo de memória)
+	-SEMPRE SE CHEGA NA SOLUÇÃO MELHOR
+-Busca de heurística(menos processamento e menos consumo de memória)
+-NEM SEMPRE SE CHEGA NA SOLUÇÃO MELHOR(depende da heurística)
+
+-Solucionar um problema com métodos de busca exige a modelagem de:
+-Estados 
+-Regras de transição
+-Restrições
+-Visitados
+-Função objetivo (saber se o sistema atingiu a solução)
+
+
