@@ -1,0 +1,29 @@
+Revisão método de busca:
+
+Problemas que a IA resolve
+	-Problemas de diagnóstico -> Reconhecer padrões
+	-Problemas em que não se sabe como chegar no estado final -> "Empacotamento"
+
+
+Técnicas de Ia geram ou constroem SISTEMA DE COMPORTAMENTO INTELIGENTE
+	-Base de conhecimento
+	-Motores de raciocínio-> Dedução e Indução 
+		-Algoritmo de busca
+			-Cega ou força bruta
+			-Profundidade 
+			-Largura ou amplitude 
+		-Informados ou heurísticos
+			CUSTOS
+			   -Real G(n)
+			   -Estimado ou heurístico H(n) -> Admissível ou Inadmissível
+			MÉTODOS
+			 -Subida de Encosta -> Baseado no profundidade e foca no custo real
+			 -Guloso -> Baseado na amplitude e foca no custo estimado 
+			 -A* -> Baseado na amplitude e soma custo real(acumulado) com custo real. Com isso, pode corrigir a heurística(a heurística é Estática).
+
+			 	
+Método de Busca -> 
+	-Soluções para problemas
+		- Gerar ou atingir Estado(s) desejado(s)
+		- Gerar ou produzir passo a passo até o Estado(s) Desejado(s)
+
