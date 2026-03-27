@@ -1,0 +1,30 @@
+Técnicas de IA
+  -Projetar e construir SISTEMAS DE COMPORTAMENTO INTELIGENTE
+    -Base de conhecimento
+        -Representar conhecimento e raciocinar na base
+  -Motores de racicinio
+    -Métodos de busca
+    -Aprendizado de máquina
+
+  BASE DE CONHECIMENTO
+  -Desafio é representar o conhecimento
+
+-PROLOG
+  -linguagem no contexto do PARADIGMA LÓGICO ->Lógica de 1a ordem
+      -Dentro de uma sentaça há parâmentros ou argumentos
+        -obejto: nicola
+        -liteal: nicola
+        -variavel: Palavra ou letra em Maiusculo -> Nao tem tipo e não tem instanciação
+
+      -Baseada em sentenças/assertivas/predicados 
+          -FATOS ->Verdades incontestáveis na base
+                  progenitor(nicola,alexandre).
+                  disciplinas(alex,ia.cc.2026).
+                  
+
+          -REGRAS -> Hipóteses ou consultas com uso de :- e variáveis 
+                    Progenitor(nicola,alexandre).
+                    Progenitor(nicola,fábio).
+          Irmãos(A,B) :-
+            Progenitor(pai,A).
+            Progenitor(pai,B).
