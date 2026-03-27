@@ -13,15 +13,30 @@ Técnicas de Ia geram ou constroem SISTEMA DE COMPORTAMENTO INTELIGENTE
 			-Profundidade 
 			-Largura ou amplitude 
 		-Informados ou heurísticos
-			CUSTOS
-			   -Real G(n)
-			   -Estimado ou heurístico H(n) -> Admissível ou Inadmissível
-			MÉTODOS
+						CUSTOS
+			-Real G(n) --> Usa-se o subida de encosta e A* (métodos de busca)
+		  -Estimado ou heurístico H(n) -> Admissível ou Inadmissível --> Usa-se o guloso e A* (métodos de busca)
+			
+					MÉTODOS
 			 -Subida de Encosta -> Baseado no profundidade e foca no custo real
 			 -Guloso -> Baseado na amplitude e foca no custo estimado 
 			 -A* -> Baseado na amplitude e soma custo real(acumulado) com custo real. Com isso, pode corrigir a heurística(a heurística é Estática).
 
-			 	
+			MÉTODOS DE BUSCA EM GERAL:
+	-Gerar e Testar
+		-Gerar um novo estado clonado
+		-Testar
+			-EhValido	
+			-Visitado
+			-EhMeta
+
+	-MODELAGEM
+		-Estados --> Estrutuas de Dados --> atribuyos/variasveis
+		-Regas de transição -->Métodos
+		-Restrições -> Ifs e validos 
+
+
+				 	
 Método de Busca -> 
 	-Soluções para problemas
 		- Gerar ou atingir Estado(s) desejado(s)
